@@ -9,6 +9,8 @@ class Calculator:
 # Usage
 calc = Calculator()
 
+
+
 print(calc.add(5))            # 5
 print(calc.add(5, 10))        # 15
 print(calc.add(5, 10, 20))    # 35
@@ -16,7 +18,8 @@ print(calc.add(1, 2, 3, 4, 5))# 15
 
 
 
-# *kwargs allows the method to accept any number of arguments.(for variable number of keyword arguments).
+
+# **kwargs allows the method to accept any number of arguments.(for variable number of keyword arguments).
 
 
 class Calculator:
