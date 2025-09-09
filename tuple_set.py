@@ -13,3 +13,7 @@ print(s)           # {1, 2, 3}
 # Find common elements between two sets Input: A = {1, 2, 3, 4}, B = {3, 4, 5, 6} Output: {3, 4}
 
 # Write a program to reverse a number using a while loop.
+
+import module
+
+print(module.add(5, 2))
