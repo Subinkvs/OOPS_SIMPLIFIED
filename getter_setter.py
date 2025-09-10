@@ -8,8 +8,6 @@
 #                 providing controlled access using getters and setters.
 
 
-
-
 class Person:
     def __init__(self, name, age):
         self.__name = name   # private variable
@@ -18,6 +16,7 @@ class Person:
     # Getter
     def get_name(self):
         return self.__name
+        
 
     def get_age(self):
         return self.__age

@@ -18,6 +18,7 @@ class Student:
         self.age = age
         Student.count += 1
 
+
     # Instance Method (works with object data using self)
     def display_info(self):
         return f"Name: {self.name}, Age: {self.age}"
@@ -29,6 +30,7 @@ class Student:
 
     # Static Method (general utility, no self or cls)
     @staticmethod
+    
     def is_adult(age):
         return age >= 18
 
@@ -92,6 +94,7 @@ An instance method deposit(amount) that adds money to the account balance.
 A class method set_interest_rate(cls, rate) that updates the interest rate for all accounts.
 
 A static method bank_policy() that prints a simple bank policy message (e.g., "Minimum balance should be 1000").
+
 
 👉 Task:
 

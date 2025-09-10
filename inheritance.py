@@ -4,13 +4,13 @@
 # Parent Class
 class Animal:
     def speak(self):
-        return "This animal makes a sound."
+        print("This animal makes a sound.)"
 
 # Child Class (inherits from Animal)
 class Dog(Animal):
     # method overrding
     def speak(self):
-        return "The dog barks."
+        print("The dog barks.")
 
 # Usage
 animal = Animal()
