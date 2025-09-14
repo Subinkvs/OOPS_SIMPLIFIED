@@ -1,7 +1,7 @@
 # A module in Python is just a .py file that contains functions, classes, or variables which you can import and reuse in another file.
+# syntax -> import module name
+import math_mod
 
-def add(a, b):
-    return a + b
 
-
+print(math_mod.add(5, 6))
 

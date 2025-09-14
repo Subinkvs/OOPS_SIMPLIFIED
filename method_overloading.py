@@ -4,7 +4,6 @@
 
 class Calculator:
 
-    
     def add(self, *args):
         return sum(args)
 
@@ -37,4 +36,12 @@ print(calc.add(a=5))
 print(calc.add(x=5, y=10))            
 print(calc.add(num1=5, num2=10, num3=20))   
 print(calc.add(n1=1, n2=2, n3=3, n4=4, n5=5)) 
+
+Polymorphism – Employee Salary System
+
+Q1. Write a program to calculate salary for FullTimeEmployee (fixed monthly salary) and 
+PartTimeEmployee (hourly rate × hours worked). Use polymorphism so both classes have a 
+calculate_salary() method.
+Q2. Add a new employee type Freelancer who is paid per project. Show how polymorphism allows handling all 
+employee types in a single loop.
 
