@@ -30,7 +30,6 @@ class Student:
 
     # Static Method (general utility, no self or cls)
     @staticmethod
-    
     def is_adult(age):
         return age >= 18
 
